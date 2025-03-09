@@ -1,0 +1,1165 @@
+body {
+    position: absolute;
+    width: 100%;
+}
+
+html {
+    background-color: #FFC5B3;
+}
+
+#navbar {
+    border-bottom: 1px solid #FFC5B3;
+}
+
+/* Project ----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.projectContainer {
+    margin: 8vw 4vw 0vw 4vw;
+    padding: 4vw;
+    background-color: #FFFCEE;
+    border-radius: 2vw;
+    display: block;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleContainer {
+    display: block;
+    flex-grow: 1;
+}
+
+.projectTitle {
+    font-weight: 700;
+    font-size: 4vw;
+    margin-bottom: 0.5vw;
+    color: #FFC5B3;
+    text-wrap: wrap;
+}
+
+.projectTitle img {
+    margin-left: 2vw;
+    width: 3.5vw;
+    transform: translateY(5%);
+    transition: 0.2s;
+}
+
+.projectTitle img:hover {
+    transform-origin: bottom left;
+    transform: translateY(5%);
+    transform: scale(1.05);
+
+}
+
+.projectSubtitle {
+    font-weight: 500;
+    font-size: 1.4vw;
+    margin: 1vw 0 1.5vw 0;
+    color: #FFC5B3;
+}
+
+.collaborators {
+    padding: 1vw 0 0 4vw;
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 2.2vw;
+    flex-shrink: 3;
+}
+
+.collaboratorsTitle {
+    color: #FFC5B3;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 2vw;
+}
+
+.projectText {
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+}
+
+.storyBox {
+    padding: 3.8vw 4vw;
+    background-color: #FFFCEE;
+    border-radius: 2vw;
+    width: 25vw;
+}
+
+.roundedImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vw;
+    flex-grow: 1;
+    border: none;
+}
+
+iframe {
+    width: 100%;
+    height: 40vw;
+}
+
+.storyContainer {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1vw;
+    padding: 1vw 4vw 4vw 4vw;
+}
+
+@media only screen and (min-width: 600px) {
+    .mobileCollaborators {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .projectContainer {
+        margin: 16vw 4vw 0vw 4vw;
+        padding: 4vw;
+        border-radius: 4vw;
+    }
+
+    .headerContainer {
+        display: block;
+    }
+
+    .titleContainer {
+        width:100%;
+    }
+
+    .projectTitle {
+        font-size: 5.7vw;
+        margin-bottom: 0.5vw;
+        color: #FFC5B3;
+    }
+
+    .projectSubtitle {
+        font-size: 2.9vw;
+        margin-bottom: 3vw;
+    }
+
+    .projectSubcontainer {
+        flex-direction: column;
+    }
+
+    .projectText {
+        width: 100%;
+        font-size: 2.9vw;
+        line-height: 4vw;
+    }
+
+    .collaborators {
+        width: 100%;
+        padding: 0;
+        margin: 4vw 0 0 0;
+        font-size: 2.9vw;
+        line-height: 4vw;
+    }
+
+    .collaboratorsTitle {
+        font-size: 4.3vw;
+        line-height: 2vw;
+    }
+
+    .desktopCollaborators {
+        display: none;
+    }
+
+    .roundedImage {
+        border-radius: 4vw;
+    }
+
+    iframe {
+        width: 100%;
+        height: 52.25vw;
+    }
+
+    .imagesContainer {
+        gap: 4vw;
+        padding: 4vw 4vw 4vw 4vw;
+    }
+
+    .storyBox {
+        width: 100%;
+        border-radius: 4vw;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+    .projectContainer {
+        margin: 12vw 4vw 0vw 4vw;
+    }
+
+    .projectTitle {
+        font-size: 4vw;
+        margin-bottom: 0.5vw;
+    }
+
+    iframe {
+        width: 100%;
+        height: 52.5vw;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Hell's Chicken ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+#hellsChickenCover {
+    width: 60%;
+    height: 30vw;
+    background-image: url(../materials/hells_chicken/copertina.jpg);
+}
+
+#hellsChicken1 {
+    width: 40%;
+    height: 25vw;
+    background-image: url(../materials/hells_chicken/screen1.jpg);
+}
+
+#hellsChicken2 {
+    width: 40%;
+    height: 25vw;
+    background-image: url(../materials/hells_chicken/screen2.jpg);
+}
+
+#hellsChicken3 {
+    width: 40%;
+    height: 32vw;
+    background-image: url(../materials/hells_chicken/screen3.jpg);
+}
+
+#hellsChicken4 {
+    width: 25%;
+    height: 25vw;
+    background-image: url(../materials/hells_chicken/screen4.jpg);
+}
+
+#hellsChicken5 {
+    width: 25%;
+    height: 25vw;
+    background-image: url(../materials/hells_chicken/screen5.jpg);
+}
+
+#hellsChicken6 {
+    width: 25%;
+    height: 25vw;
+    background-image: url(../materials/hells_chicken/screen6.jpg);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .storyBox {
+        width: 100%;
+    }
+
+    #hellsChickenCover {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #hellsChicken1 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #hellsChicken2 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #hellsChicken3 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #hellsChicken4 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #hellsChicken5 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #hellsChicken6 {
+        width: 100%;
+        height: 50vw;
+    }
+}
+
+/* irreducible ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#irreducibleVideo {
+    width: 40vw;
+    height: 35vw;
+}
+
+#irreducibleCover {
+    width: 20%;
+    height: 35vw;
+    background-image: url(../materials/irreducible/copertina.png);
+}
+
+#irreducible1 {
+    width: 20%;
+    height: 35vw;
+    background-image: url(../materials/irreducible/irreducible1.png);
+}
+
+#irreducible2 {
+    width: 20%;
+    height: 35vw;
+    background-image: url(../materials/irreducible/irreducible4.png);
+}
+
+#irreducible3 {
+    width: 20vw;
+    height: 35vw;
+    background-image: url(../materials/irreducible/irreducible3.png);
+}
+
+@media only screen and (max-width: 768px) {
+
+    #irreducibleVideo {
+        width: 40vw;
+        height: 52vw;
+    }
+
+    #irreducibleCover {
+        width: 100%;
+        height: 140vw;
+    }
+
+    #irreducible1 {
+        width: 100%;
+        height: 140vw;
+    }
+
+    #irreducible2 {
+        width: 100%;
+        height: 140vw;
+    }
+
+    #irreducible3 {
+        width: 100%;
+        height: 140vw;
+    }
+}
+
+/* Meet Museum ----------------------------------------------------------------------------------------------------------------------------- */
+
+#meetCover {
+    width: 50%;
+    height: 40vw;
+    background-image: url(../materials/meet/meet1.png);
+}
+
+#meet1 {
+    width: 30%;
+    height: 35vw;
+    background-image: url(../materials/meet/meet1.png);
+}
+
+#meet2 {
+    width: 50%;
+    height: 35vw;
+    background-image: url(../materials/meet/meet2.png);
+}
+
+#meet3 {
+    width: 50%;
+    height: 35vw;
+    background-image: url(../materials/meet/meet3.png);
+}
+
+#meet4 {
+    width: 30%;
+    height: 35vw;
+    background-image: url(../materials/meet/meet4.png);
+}
+
+@media only screen and (max-width: 768px) {
+    #meetCover {
+        width: 100%;
+        height: 100vw;
+    }
+
+    #meet1 {
+        width: 100%;
+        height: 60vw;
+    }
+
+    #meet2 {
+        width: 100%;
+        height: 60vw;
+    }
+
+    #meet3 {
+        width: 100%;
+        height: 60vw;
+    }
+
+    #meet4 {
+        width: 100%;
+        height: 60vw;
+    }
+}
+
+
+/* Aletheia Photo Mosaic ----------------------------------------------------------------------------------------------------------------------------- */
+
+#aletheiaCover {
+    width: 50%;
+    height: 30vw;
+    background-image: url(../materials/aletheia/copertina.jpg);
+}
+
+#aletheia1 {
+    width: 100%;
+    height: 50%;
+    background-image: url(../materials/aletheia/aletheia1.jpg);
+    background-position: left;
+}
+
+#aletheia2 {
+    width: 100%;
+    height: 50%;
+    background-image: url(../materials/aletheia/aletheia2.jpg);
+
+}
+
+#aletheia4 {
+    width: 50%;
+    height: 35vw;
+    background-image: url(../materials/aletheia/aletheia3.jpg);
+}
+
+#aletheia3 {
+    width: 30%;
+    height: 40vw;
+    background-image: url(../materials/aletheia/aletheia4.jpg);
+}
+
+#aletheiaSubcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 30vw;
+    height: 40vw;
+}
+
+@media only screen and (max-width: 768px) {
+    #aletheiaCover {
+        width: 100%;
+        height: 90vw;
+    }
+
+    #aletheiaSubcontainer {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        width: 100%;
+        height: 104vw;
+    }
+
+    #aletheia1 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #aletheia2 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #aletheia3 {
+        width: 100%;
+        height: 70vw;
+    }
+
+    #aletheia4 {
+        width: 100%;
+        height: 50vw;
+    }
+}
+
+/* Hell's Chicken ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#dirtyVideo {
+    width: 35%;
+    height: 35vw;
+}
+
+#dirty1 {
+    width: 40%;
+    height: 25vw;
+    background-image: url(../materials/dirtypiggybank/dirty1.png);
+}
+
+#dirtypiggybankCover {
+    width: 40%;
+    height: 25vw;
+    background-image: url(../materials/dirtypiggybank/copertina.png);
+}
+
+#dirty2 {
+    width: 30vw;
+    height: 30vw;
+    background-image: url(../materials/dirtypiggybank/dirty2.png);
+}
+
+@media only screen and (max-width: 768px) {
+    #dirtypiggybankCover {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #dirtyVideo {
+        width: 100%;
+        height: 50vw;
+    }
+    
+    #dirty1 {
+        width: 100%;
+        height: 50vw;
+    }
+    
+    #dirty2 {
+        width: 100%;
+        height: 50vw;
+    }
+}
+
+/* Curse of the Blind Dead ----------------------------------------------------------------------------------------------------------------------------- */
+
+#backstageCover {
+    width: 40%;
+    height: 35vw;
+    background-image: url(../materials/backstage/copertina.jpg);
+}
+
+#backstage1 {
+    width: 50%;
+    height: 35vw;
+    background-image: url(../materials/backstage/backstage1.jpg);
+}
+
+#backstage2 {
+    width: 50%;
+    height: 35vw;
+    background-image: url(../materials/backstage/backstage2.jpg);
+
+}
+
+#backstage3 {
+    width: 40%;
+    height: 35vw;
+    background-image: url(../materials/backstage/backstage3.jpg);
+}
+
+#backstage4 {
+    width: 100%;
+    height: 50vw;
+    background-image: url(../materials/backstage/backstage4.jpg);
+}
+
+#backstage5 {
+    width: 60%;
+    height: 35vw;
+    background-image: url(../materials/backstage/backstage5.jpg);
+}
+
+#backstage6 {
+    width: 30%;
+    height: 35vw;
+    background-image: url(../materials/backstage/backstage6.jpg);
+}
+
+#backstage7 {
+    width: 40%;
+    height: 35vw;
+    background-image: url(../materials/backstage/backstage7.jpg);
+}
+
+#backstage8 {
+    width: 45%;
+    height: 35vw;
+    background-image: url(../materials/backstage/backstage8.jpg);
+    background-position: right;
+}
+
+@media only screen and (max-width: 768px) {
+    #backstageCover {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #backstage1 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #backstage2 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #backstage3 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #backstage4 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #backstage5 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #backstage6 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #backstage7 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #backstage8 {
+        width: 100%;
+        height: 50vw;
+    }
+}
+
+/* I Grrr ----------------------------------------------------------------------------------------------------------------------------- */
+
+#grrrCover {
+    width: 30%;
+    height: 30vw;
+    background-image: url(../materials/grrr/copertina.jpg);
+}
+
+#grrr1 {
+    width: 50%;
+    height: 30vw;
+    background-image: url(../materials/grrr/grrr1.jpg);
+}
+
+#grrr2 {
+    width: 30%;
+    height: 31vw;
+    background-image: url(../materials/grrr/grrr2.jpg);
+    background-position: 65% 0;
+}
+
+#grrr3 {
+    width: 30%;
+    height: 31vw;
+    background-image: url(../materials/grrr/grrr3.jpg);
+    background-position: 60% 0;
+}
+
+#grrr4 {
+    width: 30%;
+    height: 31vw;
+    background-image: url(../materials/grrr/grrr4.jpg);
+}
+
+#grrr5 {
+    width: 100%;
+    height: 45vw;
+    background-image: url(../materials/grrr/grrr5.jpg);
+}
+
+@media only screen and (max-width: 768px) {
+    #grrrCover {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #grrr1 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #grrr2 {
+        width: 100%;
+        height: 50vw;
+        background-position: 50% 50%;
+    }
+
+    #grrr3 {
+        width: 100%;
+        height: 50vw;
+        background-position: 50% 50%;
+    }
+
+    #grrr4 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #grrr5 {
+        width: 100%;
+        height: 50vw;
+    }
+}
+
+/* Keith Haring ----------------------------------------------------------------------------------------------------------------------------- */
+
+#haringCover {
+    width: 100%;
+    height: 48vw;
+    background-image: url(../materials/haring/copertina.jpg);
+}
+
+#haring1 {
+    width: 25%;
+    height: 30vw;
+    background-image: url(../materials/haring/haring1.jpg);
+}
+
+#haring2 {
+    width: 25%;
+    height: 30vw;
+    background-image: url(../materials/haring/haring2.jpg);
+
+}
+
+#haring3 {
+    width: 30%;
+    height: 30vw;
+    background-image: url(../materials/haring/haring3.jpg);
+}
+
+#haring4 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/haring/haring4.jpg);
+}
+
+#haring5 {
+    width: 45%;
+    height: 30vw;
+    background-image: url(../materials/haring/haring5.jpg);
+}
+
+#haring6 {
+    width: 45%;
+    height: 30vw;
+    background-image: url(../materials/haring/haring6.jpg);
+}
+
+@media only screen and (max-width: 768px) {
+    #haringCover {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #haring1 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #haring2 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #haring3 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #haring4 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #haring5 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #haring6 {
+        width: 100%;
+        height: 50vw;
+    }
+}
+
+/* Mario Kart Wii ----------------------------------------------------------------------------------------------------------------------------- */
+
+#mkwiiCover {
+    width: 100%;
+    height: 40vw;
+    background-image: url(../materials/mkwii/mkwii12.jpg);
+}
+
+#mkwii0 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii0.jpg);
+}
+
+#mkwii1 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii1.jpg);
+}
+
+#mkwii2 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii2.jpg);
+
+}
+
+#mkwii3 {
+    width: 100%;
+    height: 40vw;
+    background-image: url(../materials/mkwii/mkwii3.jpg);
+}
+
+#mkwii4 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii4.jpg);
+}
+
+#mkwii5 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii5.jpg);
+}
+
+#mkwii6 {
+    width: 100%;
+    height: 40vw;
+    background-image: url(../materials/mkwii/mkwii6.jpg);
+}
+
+#mkwii7 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii7.jpg);
+}
+
+#mkwii8 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii8.jpg);
+}
+
+#mkwii9 {
+    width: 100%;
+    height: 40vw;
+    background-image: url(../materials/mkwii/mkwii9.jpg);
+}
+
+#mkwii10 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii10.jpg);
+}
+
+#mkwii11 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii11.jpg);
+}
+
+#mkwii13 {
+    width: 50%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii13.jpg);
+}
+
+#mkwii14 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii14.jpg);
+}
+
+#mkwii15 {
+    width: 30%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii15.jpg);
+}
+
+#mkwii16 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii16.jpg);
+}
+
+#mkwii17 {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii17.jpg);
+}
+
+#mkwii18 {
+    width: 30%;
+    height: 30vw;
+    background-image: url(../materials/mkwii/mkwii18.jpg);
+}
+
+
+@media only screen and (max-width: 768px) {
+    #mkwiiCover {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii0 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii1 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii2 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii3 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii4 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii5 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii6 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii7 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii8 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii9 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii10 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii11 {
+        width: 100%;
+        height: 50vw;
+    }
+
+
+    #mkwii12 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii13 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii14 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii15 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii16 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii17 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #mkwii18 {
+        width: 100%;
+        height: 50vw;
+    }
+}
+
+/* Off The Grid ----------------------------------------------------------------------------------------------------------------------------- */
+
+#offthegridCover {
+    width: 40%;
+    height: 30vw;
+    background-image: url(../materials/offthegrid/copertina.jpg);
+}
+
+#offthegrid1 {
+    width: 50%;
+    height: 30vw;
+    background-image: url(../materials/offthegrid/offthegrid1.jpg);
+}
+
+#offthegrid2 {
+    width: 40%;
+    height: 28vw;
+    background-image: url(../materials/offthegrid/offthegrid2.jpg);
+
+}
+
+#offthegrid3 {
+    width: 45%;
+    height: 24vw;
+    background-image: url(../materials/offthegrid/offthegrid3.jpg);
+}
+
+#offthegrid4 {
+    width: 45%;
+    height: 24vw;
+    background-image: url(../materials/offthegrid/offthegrid4.jpg);
+}
+
+#offthegrid5 {
+    width: 40%;
+    height: 35vw;
+    background-image: url(../materials/offthegrid/offthegrid6.jpg);
+}
+
+@media only screen and (max-width: 768px) {
+    #offthegridCover {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #offthegrid1 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #offthegrid2 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #offthegrid3 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #offthegrid4 {
+        width: 100%;
+        height: 50vw;
+    }
+
+    #offthegrid5 {
+        width: 100%;
+        height: 50vw;
+    }
+}
+
+/* L'Abbandono della val seriana ----------------------------------------------------------------------------------------------------------------------------- */
+
+#reportageCover {
+    width: 60%;
+    height: 42vw;
+    background-image: url(../materials/reportage/copertina.jpg);
+}
+
+#reportage1 {
+    width: 30%;
+    height: 42vw;
+    background-image: url(../materials/reportage/reportage1.jpg);
+}
+
+#reportage2 {
+    width: 30%;
+    height: 42vw;
+    background-image: url(../materials/reportage/reportage2.jpg);
+
+}
+
+#reportage3 {
+    width: 60%;
+    height: 42vw;
+    background-image: url(../materials/reportage/reportage3.jpg);
+}
+
+#reportage4 {
+    width: 30%;
+    height: 42vw;
+    background-image: url(../materials/reportage/reportage4.jpg);
+}
+
+#reportage5 {
+    width: 50%;
+    height: 42vw;
+    background-image: url(../materials/reportage/reportage5.jpg);
+}
+
+@media only screen and (max-width: 768px) {
+    #reportageCover {
+        width: 100%;
+        height: 65vw;
+    }
+
+    #reportage1 {
+        width: 100%;
+        height: 125vw;
+    }
+
+    #reportage2 {
+        width: 100%;
+        height: 125vw;
+    }
+
+    #reportage3 {
+        width: 100%;
+        height: 65vw;
+    }
+
+    #reportage4 {
+        width: 100%;
+        height: 125vw;
+    }
+
+    #reportage5 {
+        width: 100%;
+        height: 60vw;
+    }
+}
